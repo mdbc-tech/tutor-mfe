@@ -1,0 +1,4 @@
+# MFE
+mfe:
+    image: {{ MFE_DOCKER_IMAGE }}
+    restart: unless-stopped
